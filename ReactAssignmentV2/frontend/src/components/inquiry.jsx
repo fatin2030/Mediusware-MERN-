@@ -144,7 +144,7 @@ const Inquiry = () => {
                             <label className="block font-medium mb-2"> Deep Details About Your Query(Optional)  </label>
 
                         </div>
-                        <textarea className="textarea textarea-bordered h-24" placeholder="Tell Us more about your query"></textarea>
+                        <textarea className="textarea textarea-bordered h-24" placeholder="Tell us more about your query"></textarea>
 
                     </label>
                     <br />
@@ -154,18 +154,19 @@ const Inquiry = () => {
 
                     <div className="mb-6">
                         <label className="block font-medium mb-1">Add Attachments (Optional)</label>
-                        <div className="border border-gray-300 rounded-lg p-2 flex justify-between items-center focus-within:ring-2 focus-within:ring-primary">
-                            <span className="text-gray-500 text-sm pl-1">(a brief, idea, branding guideline, old design,...)</span>
-                            <button className="btn btn-outline bg-green-600 flex items-center">
+                        <div className="border border-gray-300 rounded-lg p-2 flex justify-between items-center focus-within:ring-2 focus-within:ring-primary h-11">
+                            <span className="text-gray-500 text-sm pl-1" >(a brief, idea, branding guideline, old design,...) </span>
+                            <label className="btn btn-outline bg-green-600 flex items-center h-11" >
                                 <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M13.6017 7.26634L7.59127 13.2768C6.22443 14.6436 4.00836 14.6436 2.64152 13.2768C1.27469 11.9099 1.27469 9.69384 2.64152 8.327L8.65193 2.3166C9.56315 1.40537 11.0405 1.40537 11.9518 2.3166C12.863 3.22782 12.863 4.7052 11.9518 5.61643L6.17705 11.3911C5.72144 11.8467 4.98275 11.8467 4.52714 11.3911C4.07153 10.9355 4.07153 10.1968 4.52714 9.74122L9.59474 4.67362" stroke="white" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
                                 </svg>
                                 <span className="ml-2">Add File (5MB)</span>
                                 <input type="file" className="hidden" />
-                            </button>
+                            </label>
                         </div>
                     </div>
 
+                
 
                     <button type="submit" class="focus:outline-none">
                         <img src="logoButton.png" alt="Send Inquiry Button" class="block" />
