@@ -1,11 +1,19 @@
 import React from 'react'
 import "./App.css"
+import Header from './components/header'
+import Inquiry from './components/inquiry'
 
 const App = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+        <div data-theme="light">
+
+
+       <Header />
+       <Inquiry />
+
+        </div>
+    </>
   )
 }
 
