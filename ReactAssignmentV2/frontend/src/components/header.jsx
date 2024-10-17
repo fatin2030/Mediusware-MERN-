@@ -4,7 +4,7 @@ const header = () => {
     return (
         <>
 
-            <header className="bg-white">
+            {/* <header className="bg-white">
                 <style>
                     {`
 .large-text {
@@ -12,7 +12,7 @@ font-size: 2em;
 }
 `}
                 </style>
-                <div >
+                <div className="flex justify-center items-center min-h-screen">
                     <b>
                         <strong>
                             <span className="text-accent-content large-text">Drop Us a </span>
@@ -20,9 +20,11 @@ font-size: 2em;
                         </strong>
                     </b>
                 </div>
-            </header>
+            </header> */}
 
-
+<h2 className="text-3xl font-bold text-gray-800 mb-6 text-left">
+  Drop Us a <span className="text-green-600">Line</span>
+</h2>
 
 
 

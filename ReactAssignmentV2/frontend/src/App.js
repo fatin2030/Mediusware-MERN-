@@ -8,8 +8,8 @@ const App = () => {
     <>
         <div data-theme="light">
 
-
-       <Header />
+            {/* <Header />   */}
+   
        <Inquiry />
 
         </div>
