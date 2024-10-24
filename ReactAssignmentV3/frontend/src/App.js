@@ -10,7 +10,7 @@ return (
   <div>
     <div className='relative min-h-screen'>
       <video
-        className="absolute top-0 left-0  object-cover"
+        className="absolute  h-full w-screen top-0 left-0  object-cover"
         autoPlay
         loop
         muted
@@ -23,7 +23,7 @@ return (
       </div>
     </div>
 
-    <div className=' bg-slate-100 mt-20'>
+    <div className=' bg-slate-100'>
       <Service />
     </div>
     <div className=''>

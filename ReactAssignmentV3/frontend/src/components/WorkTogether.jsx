@@ -20,7 +20,7 @@ const WorkTogether = () => {
                             support for every project. Here is the process we work on:
                         </p>
                     </div>
-                    
+
                     <div className='flex space-x-4'>
                         <svg width="342" height="260" viewBox="0 0 342 260" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect width="342" height="260" rx="12" fill="#F1F5F9" />

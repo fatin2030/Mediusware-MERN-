@@ -6,14 +6,14 @@ const AboutUs = () => {
       <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between gap-8"> {/* Responsive flexbox container for layout */}
         
         {/* Left Side - Image with play button */}
-        <div className="relative w-full lg:w-1/2 h-64 lg:h-auto"> {/* Responsive image container */}
+        <div className="relative w-full lg:w-1/2 h-64 lg:h-auto"> 
           <img 
             src="thirdPageImage.png" 
             alt="Team Working" 
             className="w-full h-full object-cover rounded-lg" 
-          /> {/* Full width and height image with object-cover and rounded corners */}
-          <div className="absolute inset-0 flex justify-center items-center"> {/* Absolute overlay for play button */}
-            <button className="bg-white p-4 rounded-full shadow-lg hover:bg-gray-200 transition"> {/* Play button styling */}
+          /> 
+          <div className="absolute inset-0 flex justify-center items-center"> 
+            <button className="bg-white p-4 rounded-full shadow-lg hover:bg-gray-200 transition"> 
               <svg 
                 xmlns="http://www.w3.org/2000/svg" 
                 viewBox="0 0 24 24" 

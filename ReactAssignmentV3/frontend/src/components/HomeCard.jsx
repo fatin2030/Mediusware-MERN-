@@ -16,7 +16,7 @@ const HomeCard = () => {
         </video> */}
         <div className="absolute inset-0 h-4/5">
           <div className="flex justify-center items-center mt-20 h-full">
-            <h1 className="text-8xl font-bold  text-white text-center">
+            <h1 className="text-3xl md:text-8xl font-bold  text-white text-center">
               Transforming Your Ideas <br /> into <span className="text-[#2EB8A2]">Digital Outcomes</span>
               <br />
 
@@ -35,7 +35,7 @@ const HomeCard = () => {
 
           </div>
 
-          <div className='flex justify-end h-full mr-20 py-20 '>
+          <div className='flex justify-end h-full mr-20 py-10 '>
 
           <svg width="32" height="40" viewBox="0 0 32 40" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M17.5 10C17.5 9.17156 16.8284 8.5 16 8.5C15.1716 8.5 14.5 9.17156 14.5 10V16C14.5 16.8284 15.1716 17.5 16 17.5C16.8284 17.5 17.5 16.8284 17.5 16V10Z" fill="#0C98EB"/>
