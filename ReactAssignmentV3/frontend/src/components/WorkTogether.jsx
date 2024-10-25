@@ -21,7 +21,8 @@ const WorkTogether = () => {
                         </p>
                     </div>
 
-                    <div className='flex space-x-4'>
+                    <div className='flex space-x-4 group hover:inset-px transform transition-transform duration-300 hover:scale-105'>
+
                         <svg width="342" height="260" viewBox="0 0 342 260" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect width="342" height="260" rx="12" fill="#F1F5F9" />
                             <rect x="24" y="24" width="74" height="74" rx="12" fill="white" />
@@ -43,8 +44,8 @@ const WorkTogether = () => {
 
 
                     {/* Step 2 */}
-                    <div className=' flex space-x-2'>
-                        <svg width="342" height="260" viewBox="0 0 342 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <div className='flex space-x-4 group hover:inset-px transform transition-transform duration-300 hover:scale-105'>
+                    <svg width="342" height="260" viewBox="0 0 342 260" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect width="342" height="260" rx="12" fill="#F1F5F9" />
                             <rect x="24" y="24" width="74" height="74" rx="12" fill="white" />
                             <g clip-path="url(#clip0_458_324)">
@@ -73,8 +74,8 @@ const WorkTogether = () => {
                     </div>
 
                     {/* Step 3 */}
-                    <div className='flex space-x-2'>
-                        <svg width="342" height="260" viewBox="0 0 342 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <div className='flex space-x-4 group hover:inset-px transform transition-transform duration-300 hover:scale-105'>
+                    <svg width="342" height="260" viewBox="0 0 342 260" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect width="342" height="260" rx="12" fill="#F1F5F9" />
                             <rect x="24" y="24" width="74" height="74" rx="12" fill="white" />
                             <g clip-path="url(#clip0_458_328)">
@@ -93,8 +94,8 @@ const WorkTogether = () => {
                     </div>
 
                     {/* Step 4 */}
-                    <div className='flex space-x-2'>
-                        <svg width="342" height="260" viewBox="0 0 342 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <div className='flex space-x-4 group hover:inset-px transform transition-transform duration-300 hover:scale-105'>
+                    <svg width="342" height="260" viewBox="0 0 342 260" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect width="342" height="260" rx="12" fill="#F1F5F9" />
                             <rect x="24" y="24" width="74" height="74" rx="12" fill="white" />
                             <path d="M42.5057 62.1016L49.4149 69.0108C49.5743 69.1758 49.7649 69.3074 49.9756 69.3979C50.1864 69.4884 50.413 69.5361 50.6424 69.5381C50.8717 69.5401 51.0992 69.4964 51.3114 69.4095C51.5237 69.3227 51.7166 69.1944 51.8788 69.0322C52.0409 68.8701 52.1692 68.6772 52.2561 68.4649C52.3429 68.2526 52.3866 68.0252 52.3846 67.7958C52.3826 67.5665 52.335 67.3398 52.2444 67.1291C52.1539 66.9184 52.0223 66.7278 51.8574 66.5684L46.1693 60.8804L51.8574 55.1924C52.0223 55.0331 52.1539 54.8425 52.2444 54.6317C52.335 54.421 52.3826 54.1943 52.3846 53.965C52.3866 53.7356 52.3429 53.5082 52.2561 53.2959C52.1692 53.0836 52.0409 52.8908 51.8788 52.7286C51.7166 52.5664 51.5237 52.4381 51.3114 52.3513C51.0992 52.2644 50.8717 52.2207 50.6424 52.2227C50.413 52.2247 50.1864 52.2724 49.9756 52.3629C49.7649 52.4534 49.5743 52.585 49.4149 52.75L42.5057 59.6592C42.1819 59.9831 42 60.4224 42 60.8804C42 61.3384 42.1819 61.7777 42.5057 62.1016Z" fill="#2EB8A2" />
@@ -107,8 +108,8 @@ const WorkTogether = () => {
                     </div>
 
                     {/* Step 5 */}
-                    <div className='flex space-x-2'>
-                        <svg width="342" height="260" viewBox="0 0 342 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <div className='flex space-x-4 group hover:inset-px transform transition-transform duration-300 hover:scale-105'>
+                    <svg width="342" height="260" viewBox="0 0 342 260" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect width="342" height="260" rx="12" fill="#F1F5F9" />
                             <rect x="24" y="24" width="74" height="74" rx="12" fill="white" />
                             <path d="M59.9062 79.4375C59.9062 80.3005 59.2068 81 58.3438 81H49.3594C45.913 81 43.1094 78.1964 43.1094 74.75V47.25C43.1094 43.8036 45.913 41 49.3594 41H68.5696C72.0156 41 74.8196 43.8036 74.8196 47.25V63.8125C74.8196 64.6755 74.1198 65.375 73.2571 65.375C72.394 65.375 71.6946 64.6755 71.6946 63.8125V47.25C71.6946 45.527 70.2926 44.125 68.5696 44.125H49.3594C47.6364 44.125 46.2344 45.527 46.2344 47.25V74.75C46.2344 76.473 47.6364 77.875 49.3594 77.875H58.3438C59.2068 77.875 59.9062 78.5745 59.9062 79.4375Z" fill="#072B4A" />
@@ -123,8 +124,8 @@ const WorkTogether = () => {
                     </div>
 
                     {/* Step 6 */}
-                    <div className='flex space-x-2'>
-                        <svg width="342" height="260" viewBox="0 0 342 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <div className='flex space-x-4 group hover:inset-px transform transition-transform duration-300 hover:scale-105'>
+                    <svg width="342" height="260" viewBox="0 0 342 260" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect width="342" height="260" rx="12" fill="#F1F5F9" />
                             <rect x="24" y="24" width="74" height="74" rx="12" fill="white" />
                             <g clip-path="url(#clip0_458_337)">

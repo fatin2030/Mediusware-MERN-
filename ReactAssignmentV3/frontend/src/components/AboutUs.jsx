@@ -1,9 +1,12 @@
 import React from 'react';
 
 const AboutUs = () => {
+
+  
+
   return (
     <section className="bg-[#f0f7ff] py-16"> {/* Light blue background with padding */}
-      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between gap-8"> {/* Responsive flexbox container for layout */}
+      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between gap-8 "> {/* Responsive flexbox container for layout */}
         
         {/* Left Side - Image with play button */}
         <div className="relative w-full lg:w-1/2 h-64 lg:h-auto"> 
@@ -47,7 +50,7 @@ const AboutUs = () => {
               <p className="text-gray-600">Team Members</p>
             </div>
             <div className="bg-white shadow-lg rounded-lg p-4 text-center"> {/* Stat box 3 */}
-              <h3 className="text-2xl font-bold text-[#2EB8A2]">1,000+</h3>
+              <h3 className="text-2xl font-bold text-[#2EB8A2]">+</h3>
               <p className="text-gray-600">Happy Customers</p>
             </div>
           </div>
