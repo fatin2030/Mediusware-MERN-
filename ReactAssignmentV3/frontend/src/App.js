@@ -9,6 +9,8 @@ import FeedBacks from './components/FeedBacks'
 import Projects from './components/Projects'
 import Achievement from './components/Achievement'
 import Query from './components/Query'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 const App = () => {
   return (
     <div>
@@ -46,7 +48,17 @@ const App = () => {
         <Achievement />
       </div>
       <div className=' bg-white'>
-        {/* <Query /> */}
+        <Query />
+      </div>
+
+    <div className='bg-[#f0f7ff]'>
+
+      <Contact  />
+
+      </div>
+
+      <div>
+       <Footer/>
       </div>
     </div>
   )
